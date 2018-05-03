@@ -48,7 +48,7 @@ function drawGame(){
     var c = document.getElementById("myCanvas");
     var ctx = c.getContext("2d");
     ctx.clearRect(0, 0, 300, 300); 
-    ctx.fillStyle = "#FF0000";
+    ctx.fillStyle = "#264a78";
     for(var j=1; j<rows; j++){
         for(var k=1; k<rows; k++){
             if(Grid[j][k] === 1){
